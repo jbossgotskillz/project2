@@ -65,6 +65,18 @@ Improvements:
         ninja assassins after you over your treachery, so do not be concerned.</p>
         <!--add image-->
     </div>
+
+    
+    <div class="container my-4" id="tutorial">
+      <h1 class="title text-center">Tutorial Room</h1>
+      <p>Before entering the CrazyNinja dojo, we recommend you to take a tour of our site.  Doing this will help you get an idea of how everything works.  Plus, while on the tour, you may feel the fire of the almighty 
+        dragon burn in your soul.  As scary as that sounds, there is no need to panic.  You will not face death.  Rather, when the dragon breathes its fire upon you, you experience a spiritual awakening.  This is the 
+        way of CrazyNinja.  In other words, your passion will grow, and you will feel more compelled to train at the CrazyNinja school.  Go ahead and take the tour of you wish.  If you have questions, then you can 
+        reach out to the grand master, who will be more than happy to answer your questions.</p>
+      
+      <div class="form-group row justify-content-center my-4">
+            <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
+        </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
