@@ -77,6 +77,22 @@ Improvements:
       <div class="form-group row justify-content-center my-4">
             <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
         </div>
+        
+    <!--Image Gallery-->
+
+    <div class="container my-4" id="image-gallery">  
+      <h1 class="title text-center">Image Gallery Room</h1>
+      <p>This dojo offers a lot of images to choose from.  However, getting them requires intense training.  Boost your skills as a ninja by searching for and capturing the images you seek, and become legendary.</p>
+    
+      <form action="#image-gallery" class="js-repo-form text-center" method="GET">    <!--<form action="#"-->
+        <label>
+            Search Category:
+            <input type="text" name="repo-name" placeholder="Select your training">
+        </label>
+        <button type="submit" aria-current="page" class="btn btn-primary">Begin</button>
+      </form>
+      <section class="js-repo-container"></section>
+    </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
