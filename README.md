@@ -66,6 +66,11 @@ Improvements:
         <!--add image-->
     </div>
 
+    
+    <div class="nav-item my-4">
+        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+    </div>
+
     <!--Tutorial-->
     
     <div class="container my-4" id="tutorial">
@@ -78,6 +83,11 @@ Improvements:
       <div class="form-group row justify-content-center my-4">
             <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
         </div>
+
+        
+    <div class="nav-item my-4">
+        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+    </div>
         
     <!--Image Gallery-->
 
@@ -94,6 +104,11 @@ Improvements:
       </form>
       <section class="js-repo-container"></section>
     </div>
+
+    
+    <div class="nav-item my-4">
+        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+    </div>
     
     <!--Registration-->
 
@@ -103,6 +118,11 @@ Improvements:
     </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    
+    <div class="nav-item my-4">
+        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+    </div>
 
 </body>
 
