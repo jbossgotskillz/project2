@@ -66,6 +66,7 @@ Improvements:
         <!--add image-->
     </div>
 
+    <!--Tutorial-->
     
     <div class="container my-4" id="tutorial">
       <h1 class="title text-center">Tutorial Room</h1>
@@ -92,6 +93,13 @@ Improvements:
         <button type="submit" aria-current="page" class="btn btn-primary">Begin</button>
       </form>
       <section class="js-repo-container"></section>
+    </div>
+    
+    <!--Registration-->
+
+    <div class="container" id="registration">
+      <h1 class="title text-center" >Registration Room</h1>
+      <p>Want to join the CrazyNinja school?  Sign up here.</p>
     </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
