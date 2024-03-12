@@ -51,6 +51,20 @@ Improvements:
     </div>
     </div>
   </nav>
+
+
+
+  
+    <!--Main-->
+
+    <div class="container my-4">
+      <h1 class="title text-center" id="main">Main Room</h1>
+      <p>Welcome to CrazyNinja, where aspiring ninja warriors come to master the art of image hunting.  We understand how difficult and frustrating it can be as a content creator to find the perfect images for 
+        your web project, so we at CrazyNinja are honored to show you the way.  If you are interested in browsing through our dojo, then enter as you wish.  In addition, if you like what we have to offer and would
+        like to become a member of the CrazyNinja school, then you must register to create an account.  Meanwhile, you may walk away from our dojo at any time.  Oh...and as a means of assurance, we will not send our 
+        ninja assassins after you over your treachery, so do not be concerned.</p>
+        <!--add image-->
+    </div>
   
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
