@@ -79,6 +79,85 @@ Improvements:
         dragon burn in your soul.  As scary as that sounds, there is no need to panic.  You will not face death.  Rather, when the dragon breathes its fire upon you, you experience a spiritual awakening.  This is the 
         way of CrazyNinja.  In other words, your passion will grow, and you will feel more compelled to train at the CrazyNinja school.  Go ahead and take the tour of you wish.  If you have questions, then you can 
         reach out to the grand master, who will be more than happy to answer your questions.</p>
+
+        
+    <form class="contact-form my-4 needs-validation" 
+          action="#"
+          method="POST"
+          novalidate>
+          <div class="form-group row">
+            <div class="col-3 offset-3" >
+
+                <label class="container-fluid p-0">
+                    First Name
+                    <input type="text" class="form-control" id="validationServerUsername" 
+                        placeholder="Enter your first name"
+                        required>
+                    <span class="invalid-feedback">
+                        You must enter a name.
+                    </span>
+                    <span class="valid-feedback">
+                        Well done.
+                    </span>
+                </label>
+                
+            </div>
+            <div class="col-3">
+
+              <label class="container-fluid p-0">
+                  Last Name
+                  <input type="text" class="form-control" id="validationServerUsername2" 
+                        placeholder="Enter your last name"
+                        required>
+                    <span class="invalid-feedback">
+                        You must enter a name.
+                    </span>
+                    <span class="valid-feedback">
+                        Well done.
+                      </span>
+              </label>
+          </div>
+        </div>
+        <div class="form-group row">
+            <div class="col col-md-6 offset-md-3">
+                <label class="container-fluid p-0">
+                    Email
+                </label>
+                <input type="email" 
+                    class="form-control" 
+                    id="password" 
+                    placeholder="Enter your email" 
+                    required>
+                    <span class="invalid-feedback">
+                      You must use a valid email address.
+                    </span>
+                  <span class="valid-feedback">
+                      Well done.
+                  </span>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="col col-md-6 offset-md-3">
+                <label for="textarea">
+                    Message
+                </label>
+                <textarea class="form-control" 
+                        id="textarea" 
+                        rows="3"></textarea>
+            </div>
+        </div>
+        <div class="form-group row my-4">
+            <div class="col col-md-6 offset-md-3 text-center">
+                <button type="submit" 
+                        class="btn btn-primary">
+                    Speak to Grand Master
+                </button>            
+            </div>
+          </div>
+  
+          </form>
+
+        </div>
       
       <div class="form-group row justify-content-center my-4">
             <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
@@ -116,13 +195,21 @@ Improvements:
       <h1 class="title text-center" >Registration Room</h1>
       <p>Want to join the CrazyNinja school?  Sign up here.</p>
     </div>
-  
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-
-    
+      
     <div class="nav-item my-4">
         <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
     </div>
+
+
+    <nav class="navbar justify-content-center">
+      <div class="end text-center">
+        <p>POWERED BY DRAGON FIRE</p>
+        <p>TRAINED BY GIPHY</p>
+      </div>
+    </nav>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 
 </body>
 
