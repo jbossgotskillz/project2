@@ -166,9 +166,9 @@ body {
 
 
     <div class="banner-container justify-content-center d-flex">
-      <img src="/assets/images/crazy_ninja.jpg"  height="300" alt="banner">
-      <img src="/assets/images/crazy_ninja2.jpg"  height="300" alt="banner2">
-      <img src="/assets/images/crazy_ninja3.jpg"  height="300" alt="banner3">
+      <img src="./crazy_ninja.jpg"  height="300" alt="banner">
+      <img src="./crazy_ninja2.jpg"  height="300" alt="banner2">
+      <img src="./crazy_ninja3.jpg"  height="300" alt="banner3">
     </div>
 
   
@@ -201,7 +201,7 @@ body {
             <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
         </div>
         
-        <img src="/assets/images/eastern_dragon.jpg" class="d-block" alt="eastern dragon">
+        <img src="./eastern_dragon.jpg" class="d-block" alt="eastern dragon">
         
     <form class="contact-form my-4 needs-validation" 
           action="#"
