@@ -180,7 +180,7 @@ body {
         your web project, so we at CrazyNinja are honored to show you the way.  If you are interested in browsing through our dojo, then enter as you wish.  In addition, if you like what we have to offer and would
         like to become a member of the CrazyNinja school, then you must register to create an account.  Meanwhile, you may walk away from our dojo at any time.  Oh...and as a means of assurance, we will not send our 
         ninja assassins after you over your treachery, so do not be concerned.</p>
-        <img src="/assets/images/dojo2.jpg" class="d-block" alt="dojo">
+        <img src="./dojo2.jpg" class="d-block" alt="dojo">
     </div>
 
     
