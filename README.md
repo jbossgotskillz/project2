@@ -29,6 +29,114 @@ Improvements:
 </head>
 
 <body>
+
+<style>
+
+    .banner-container {
+    padding:  20px;
+    display: flex;
+}
+
+
+.navbar {
+    background:  linear-gradient(yellow, orange);
+}
+
+.navbar-brand {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 630;
+    font-size:  60px;
+    font-style: normal;
+}
+
+.nav-link {
+    color:  black;
+    font-size:  20px;
+}
+
+.end {
+    color:  black;
+    font-size:  20px;
+}
+
+
+body {
+    background-color: black;
+    /*border-image: ;*/
+    background-image: url('fire2.jpg');
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    color:  yellow;
+    /*min-width:  400px;*/
+}
+
+.d-block {
+    margin:  auto;
+}
+
+.container {
+    border:  solid;
+    background-color:  black;
+    border-color:  red;
+    padding:  20px;
+}
+
+.title {
+    color:  red;
+    font-size: 48;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    /*font-weight: 700;*/
+    font-style: normal;
+}
+
+.btn-primary {
+    border-color: black;
+    background:  linear-gradient(red, maroon); 
+}
+
+.btn-primary:hover {
+    background:  linear-gradient(yellow, orange);
+    border-color:  black;
+    color:  black;
+}
+
+/*.search-bar {
+    border-radius: 30px;
+}
+
+.search  {
+    margin-left: 20px;
+}*/
+
+.category-item, .meal {
+    border:  solid;
+    background-color:  red;
+}
+
+.meal > img {
+    width:  80%;
+}
+
+
+.category-item.wide, .meal.wide {
+    width:  90%;
+    text-align:  center;
+}
+
+/*.category-container, .meal-container {
+    display:  flex;
+    justify-content:  center;
+    flex-wrap:  wrap;
+}*/
+
+.ingredient-list {
+    text-align:  center;
+}
+
+</style>
     
   <!--navbar-->
 
