@@ -57,6 +57,11 @@ Improvements:
   </nav>
 
 
+    <div class="banner-container justify-content-center d-flex">
+      <img src="/assets/images/crazy_ninja.jpg"  height="300" alt="banner">
+      <img src="/assets/images/crazy_ninja2.jpg"  height="300" alt="banner2">
+      <img src="/assets/images/crazy_ninja3.jpg"  height="300" alt="banner3">
+    </div>
 
   
     <!--Main-->
@@ -67,7 +72,7 @@ Improvements:
         your web project, so we at CrazyNinja are honored to show you the way.  If you are interested in browsing through our dojo, then enter as you wish.  In addition, if you like what we have to offer and would
         like to become a member of the CrazyNinja school, then you must register to create an account.  Meanwhile, you may walk away from our dojo at any time.  Oh...and as a means of assurance, we will not send our 
         ninja assassins after you over your treachery, so do not be concerned.</p>
-        <!--add image-->
+        <img src="/assets/images/dojo2.jpg" class="d-block" alt="dojo">
     </div>
 
     
@@ -84,6 +89,11 @@ Improvements:
         way of CrazyNinja.  In other words, your passion will grow, and you will feel more compelled to train at the CrazyNinja school.  Go ahead and take the tour of you wish.  If you have questions, then you can 
         reach out to the grand master, who will be more than happy to answer your questions.</p>
 
+      <div class="form-group row justify-content-center my-4">
+            <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
+        </div>
+        
+        <img src="/assets/images/eastern_dragon.jpg" class="d-block" alt="eastern dragon">
         
     <form class="contact-form my-4 needs-validation" 
           action="#"
