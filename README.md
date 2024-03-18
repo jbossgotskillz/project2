@@ -6,7 +6,7 @@ Details:  CrazyNinja contains an API search engine called Giphy.  There are four
 
 Technologies:  html, css, js
 
-Improvements:  
+Improvements:  spend more time understanding Javascript, customize alert boxes, figure out how to build a better search engine
 
 
 <!doctype html>
@@ -23,7 +23,7 @@ Improvements:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css_files/project2.css">
+    <link rel="stylesheet" href="./project2.css">
 
 </head>
 
@@ -56,9 +56,9 @@ Improvements:
   </nav>
 
     <div class="banner-container justify-content-center d-flex">
-      <img src="css_files/crazy_ninja.jpg"  height="300" alt="banner">
-      <img src="css_files/crazy_ninja2.jpg"  height="300" alt="banner2">
-      <img src="css_files/crazy_ninja3.jpg"  height="300" alt="banner3">
+      <img src="./crazy_ninja.jpg"  height="300" alt="banner">
+      <img src="./crazy_ninja2.jpg"  height="300" alt="banner2">
+      <img src="./crazy_ninja3.jpg"  height="300" alt="banner3">
     </div>
 
     
@@ -70,7 +70,7 @@ Improvements:
         your web project, so we at CrazyNinja are honored to show you the way.  If you are interested in browsing through our dojo, then enter as you wish.  In addition, if you like what we have to offer and would
         like to become a member of the CrazyNinja school, then you must register to create an account.  Meanwhile, you may walk away from our dojo at any time.  Oh...and as a means of assurance, we will not send our 
         ninja assassins after you over your treachery, so do not be concerned.</p>
-      <img src="css_files/dojo2.jpg" class="d-block" alt="dojo">
+      <img src="./dojo2.jpg" class="d-block" alt="dojo">
     </div>
 
     <div class="nav-item my-4">
@@ -93,12 +93,11 @@ Improvements:
 <script>
 function schoolTour() {
   alert("Due to an attack by ninjas from a rival school, no tours are being allowed at this time.  We apologize for the inconvenience.");
-  //n = line break
 }
 </script>
 
         
-        <img src="css_files/eastern_dragon.jpg" class="d-block" alt="eastern dragon">
+        <img src="./eastern_dragon.jpg" class="d-block" alt="eastern dragon">
 
     <form class="contact-form my-4 needs-validation" 
           action="#tutorial"
@@ -196,8 +195,7 @@ function schoolTour() {
         <button type="submit" aria-current="page" class="btn btn-primary">Begin</button>
 
       </form>
-      <section class="js-category-container category-container"></section>
-      <section class="js-meal-container meal-container"></section>
+     
 
       
            
@@ -275,18 +273,11 @@ function schoolTour() {
   } 
     
   </style>
+
+
+
+
   
-
-
-      <section class="js-repo-container"></section>
-
-    
-    <div id="results" class="results">
-      <form id="search-form">
-                <input id="search-input" type="text" placeholder="search">
-                
-            <button type="submit">submit</button>
-            </form>
     
     <div class="nav-item my-4">
       <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
@@ -373,7 +364,7 @@ function joinDojo() {
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-    <script src="js/project2.js"></script>
+    <script src="./project2.js"></script>
 </body>
 
     </html>
