@@ -197,9 +197,16 @@ body {
         way of CrazyNinja.  In other words, your passion will grow, and you will feel more compelled to train at the CrazyNinja school.  Go ahead and take the tour of you wish.  If you have questions, then you can 
         reach out to the grand master, who will be more than happy to answer your questions.</p>
 
-      <div class="form-group row justify-content-center my-4">
-            <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
-        </div>
+     <div class="form-group row justify-content-center my-4">
+        <button class="btn btn-primary col-3" onclick="schoolTour()">Take tour</button>
+    </div>
+
+<script>
+function schoolTour() {
+  alert("Due to an attack by ninjas from a rival school, no tours are being allowed at this time.  We apologize for the inconvenience.");
+  //n = line break
+}
+</script>
         
         <img src="./eastern_dragon.jpg" class="d-block" alt="eastern dragon">
         
@@ -365,6 +372,18 @@ body {
       </div>
 
       </form>
+
+      <script>
+function joinDojo() {
+  var txt;
+  if (confirm("Judging by your response, you seem to possess great courage.  However, courage alone can only get you so far.  Skill is also important, and honing your skill requires discipline.  You must be prepared to work countless hours and be willing to make countless sacrifices.  So before you join us, ask yourself.  Are you really sure that you want to become a member of our dojo?")) {
+    txt = "Very well.  Let's see what you got!";
+  } else {
+    txt = "No problem.  Come back when you are truly ready.";
+  }
+  document.getElementById("membership").innerHTML = txt;
+}
+</script>
       
     <div class="nav-item my-4">
         <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
