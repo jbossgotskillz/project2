@@ -317,6 +317,54 @@ body {
       <h1 class="title text-center" >Registration Room</h1>
       <p>Want to join the CrazyNinja school?  Sign up here.</p>
     </div>
+
+    
+      <form class="contact-form my-4 needs-validation" 
+      action="#registration"
+      method="POST"
+      novalidate>
+      <div class="form-group row">
+        <div class="col-3 offset-3" >
+
+            <label class="container-fluid p-0">
+                Username
+                <input type="text" class="form-control" id="validationServerUsername" 
+                    placeholder="Enter your first name"
+                    required>
+                <span class="invalid-feedback">
+                    You must enter a valid username.
+                </span>
+                <span class="valid-feedback">
+                    Well done.
+                </span>
+            </label>
+            
+        </div>
+        <div class="col-3">
+
+          <label class="container-fluid p-0">
+              Password
+              <input type="text" class="form-control" id="validationServerUsername2" 
+                    placeholder="Enter your last name"
+                    required>
+                <span class="invalid-feedback">
+                    You must enter a valid password.
+                </span>
+                <span class="valid-feedback">
+                    Well done.
+                  </span>
+          </label>
+      </div>
+    </div>
+
+    <div class="form-group row my-4">
+        <div class="col col-md-6 offset-md-3 text-center">
+            <button type="button" class="btn btn-primary" onclick="joinDojo()">Join Us</button>
+            <p id="membership"></p>
+        </div>
+      </div>
+
+      </form>
       
     <div class="nav-item my-4">
         <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
