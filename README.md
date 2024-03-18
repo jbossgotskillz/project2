@@ -217,9 +217,6 @@ function schoolTour() {
 
 
 
-
-  
-    
     <div class="nav-item my-4">
       <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
     </div>
@@ -292,6 +289,11 @@ function joinDojo() {
 </script>
 
       </div>
+
+      
+     <div class="nav-item my-4">
+        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+     </div>
 
     <nav class="navbar justify-content-center">
       <div class="end text-center">
