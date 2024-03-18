@@ -6,12 +6,9 @@ Details:  CrazyNinja contains an API search engine called Giphy.  There are four
 
 Technologies:  html, css, js
 
-Improvements:  spend more time understanding Javascript, customize alert boxes, figure out how to build a better search engine
+Improvements:  spend more time understanding Javascript, customize alert boxes, figure out how to build a working search engine
 
 
-<!doctype html>
-
-    <html lang="en">
 
 <head>
     <title>Crazy Ninja</title>
@@ -187,82 +184,26 @@ function schoolTour() {
       <h1 class="title text-center">Image Gallery Room</h1>
       <p>This dojo offers a lot of images to choose from.  However, getting them requires intense training.  Boost your skills as a ninja by searching for and capturing the images you seek, and become legendary.</p>
     
-      <form action="#image-gallery" class="js-repo-container text-center" method="GET">    <!--<form action="#"-->
+      <form action="#image-gallery" class="text-center" method="GET">    <!--<form action="#"-->
         <label>
             Search Category:
-            <input type="text" name="repo-name" placeholder="Select your training">
+            <input type="text" class="js-userinput container-textinput" placeholder="Select your training">
         </label>
-        <button type="submit" aria-current="page" class="btn btn-primary">Begin</button>
+        <button type="submit" class="btn btn-primary js-go">Begin</button>
 
       </form>
      
+    <section class="container js-container"></section>
 
-      
-           
-      <div class="header"> 
-        <h1>Gif Search Engine</h1> 
-      </div> 
-      <div class="container container-padding50"> 
-        <input type="text" class="js-userinput  
-          container-textinput" /> 
-        <button class="js-go container-button"> 
-          Search! 
-        </button> 
-      </div> 
-      <div class="container  
-        container-padding50 js-container"> 
-      </div>
   
 
     </div>
 
     
 <style> 
-    
-  body { 
-    width: 80%; 
-    max-width: 1024px; 
-    margin: 0 auto; 
-  } 
-    
-  .header { 
-    padding: 100px 50px 50px 40px; 
-    position: relative; 
-    top: 50px; 
-  } 
-    
-  h1 { 
-    font-weight: bold; 
-    font-style: normal; 
-    font-family: "Times New Roman"; 
-    font-size: 72px; 
-    color: #090; 
-    text-align: center; 
-  } 
-    
-  .container-padding50 { 
-    padding: 80px 0px 0px 30px; 
-  } 
-    
-  .container-textinput { 
-    width: 70%; 
-    display: inline-block; 
-    padding: 16px; 
-    font-size: 20px; 
-    font-family: Helvetica, sans-serif; 
-  } 
-    
-  .container-button { 
-    width: 20%; 
-    display: inline-block; 
-    padding: 16px; 
-    background-color: green; 
-    color: white; 
-    font-size: 20px; 
-    font-family: Helvetica, sans-serif; 
-    
-    border: 1px solid green; 
-    border-radius: 5px; 
+
+  .container-textinput {  
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
   } 
     
   .container-image { 
@@ -366,5 +307,3 @@ function joinDojo() {
 
     <script src="./project2.js"></script>
 </body>
-
-    </html>
