@@ -9,13 +9,11 @@ Technologies:  html, css, js
 Improvements:  
 
 
-
 <!doctype html>
 
     <html lang="en">
 
 <head>
-    
     <title>Crazy Ninja</title>
 
     <meta charset="UTF-8">
@@ -25,119 +23,12 @@ Improvements:
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css_files/project2.css">
 
 </head>
 
 <body>
 
-<style>
-
-    .banner-container {
-    padding:  20px;
-    display: flex;
-}
-
-
-.navbar {
-    background:  linear-gradient(yellow, orange);
-}
-
-.navbar-brand {
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    font-weight: 630;
-    font-size:  60px;
-    font-style: normal;
-}
-
-.nav-link {
-    color:  black;
-    font-size:  20px;
-}
-
-.end {
-    color:  black;
-    font-size:  20px;
-}
-
-
-body {
-    background-color: black;
-    /*border-image: ;*/
-    background-image: url('fire2.jpg');
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-attachment: fixed;
-    background-position: center;
-    color:  yellow;
-    /*min-width:  400px;*/
-}
-
-.d-block {
-    margin:  auto;
-}
-
-.container {
-    border:  solid;
-    background-color:  black;
-    border-color:  red;
-    padding:  20px;
-}
-
-.title {
-    color:  red;
-    font-size: 48;
-    font-family: "Caveat", cursive;
-    font-optical-sizing: auto;
-    /*font-weight: 700;*/
-    font-style: normal;
-}
-
-.btn-primary {
-    border-color: black;
-    background:  linear-gradient(red, maroon); 
-}
-
-.btn-primary:hover {
-    background:  linear-gradient(yellow, orange);
-    border-color:  black;
-    color:  black;
-}
-
-/*.search-bar {
-    border-radius: 30px;
-}
-
-.search  {
-    margin-left: 20px;
-}*/
-
-.category-item, .meal {
-    border:  solid;
-    background-color:  red;
-}
-
-.meal > img {
-    width:  80%;
-}
-
-
-.category-item.wide, .meal.wide {
-    width:  90%;
-    text-align:  center;
-}
-
-/*.category-container, .meal-container {
-    display:  flex;
-    justify-content:  center;
-    flex-wrap:  wrap;
-}*/
-
-.ingredient-list {
-    text-align:  center;
-}
-
-</style>
-    
   <!--navbar-->
 
   <nav class="navbar navbar-expand-lg d-flex">
@@ -164,14 +55,13 @@ body {
     </div>
   </nav>
 
-
     <div class="banner-container justify-content-center d-flex">
-      <img src="./crazy_ninja.jpg"  height="300" alt="banner">
-      <img src="./crazy_ninja2.jpg"  height="300" alt="banner2">
-      <img src="./crazy_ninja3.jpg"  height="300" alt="banner3">
+      <img src="css_files/crazy_ninja.jpg"  height="300" alt="banner">
+      <img src="css_files/crazy_ninja2.jpg"  height="300" alt="banner2">
+      <img src="css_files/crazy_ninja3.jpg"  height="300" alt="banner3">
     </div>
 
-  
+    
     <!--Main-->
 
     <div class="container my-4">
@@ -180,26 +70,25 @@ body {
         your web project, so we at CrazyNinja are honored to show you the way.  If you are interested in browsing through our dojo, then enter as you wish.  In addition, if you like what we have to offer and would
         like to become a member of the CrazyNinja school, then you must register to create an account.  Meanwhile, you may walk away from our dojo at any time.  Oh...and as a means of assurance, we will not send our 
         ninja assassins after you over your treachery, so do not be concerned.</p>
-        <img src="./dojo2.jpg" class="d-block" alt="dojo">
+      <img src="css_files/dojo2.jpg" class="d-block" alt="dojo">
     </div>
 
-    
     <div class="nav-item my-4">
-        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+      <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
     </div>
 
     <!--Tutorial-->
-    
+
     <div class="container my-4" id="tutorial">
       <h1 class="title text-center">Tutorial Room</h1>
       <p>Before entering the CrazyNinja dojo, we recommend you to take a tour of our site.  Doing this will help you get an idea of how everything works.  Plus, while on the tour, you may feel the fire of the almighty 
         dragon burn in your soul.  As scary as that sounds, there is no need to panic.  You will not face death.  Rather, when the dragon breathes its fire upon you, you experience a spiritual awakening.  This is the 
         way of CrazyNinja.  In other words, your passion will grow, and you will feel more compelled to train at the CrazyNinja school.  Go ahead and take the tour of you wish.  If you have questions, then you can 
         reach out to the grand master, who will be more than happy to answer your questions.</p>
-
-     <div class="form-group row justify-content-center my-4">
+      
+      <div class="form-group row justify-content-center my-4">
         <button class="btn btn-primary col-3" onclick="schoolTour()">Take tour</button>
-    </div>
+</div>
 
 <script>
 function schoolTour() {
@@ -207,11 +96,12 @@ function schoolTour() {
   //n = line break
 }
 </script>
+
         
-        <img src="./eastern_dragon.jpg" class="d-block" alt="eastern dragon">
-        
+        <img src="css_files/eastern_dragon.jpg" class="d-block" alt="eastern dragon">
+
     <form class="contact-form my-4 needs-validation" 
-          action="#"
+          action="#tutorial"
           method="POST"
           novalidate>
           <div class="form-group row">
@@ -287,45 +177,129 @@ function schoolTour() {
           </form>
 
         </div>
-      
-      <div class="form-group row justify-content-center my-4">
-            <button type="button" aria-current="page" class="btn btn-primary col-3">Take Tour</button>
-        </div>
 
-        
-    <div class="nav-item my-4">
-        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
-    </div>
-        
+          <div class="nav-item my-4">
+            <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+          </div>
+  
     <!--Image Gallery-->
 
     <div class="container my-4" id="image-gallery">  
       <h1 class="title text-center">Image Gallery Room</h1>
       <p>This dojo offers a lot of images to choose from.  However, getting them requires intense training.  Boost your skills as a ninja by searching for and capturing the images you seek, and become legendary.</p>
     
-      <form action="#image-gallery" class="js-repo-form text-center" method="GET">    <!--<form action="#"-->
+      <form action="#image-gallery" class="js-repo-container text-center" method="GET">    <!--<form action="#"-->
         <label>
             Search Category:
             <input type="text" name="repo-name" placeholder="Select your training">
         </label>
         <button type="submit" aria-current="page" class="btn btn-primary">Begin</button>
+
       </form>
-      <section class="js-repo-container"></section>
+      <section class="js-category-container category-container"></section>
+      <section class="js-meal-container meal-container"></section>
+
+      
+           
+      <div class="header"> 
+        <h1>Gif Search Engine</h1> 
+      </div> 
+      <div class="container container-padding50"> 
+        <input type="text" class="js-userinput  
+          container-textinput" /> 
+        <button class="js-go container-button"> 
+          Search! 
+        </button> 
+      </div> 
+      <div class="container  
+        container-padding50 js-container"> 
+      </div>
+  
+
     </div>
 
     
+<style> 
+    
+  body { 
+    width: 80%; 
+    max-width: 1024px; 
+    margin: 0 auto; 
+  } 
+    
+  .header { 
+    padding: 100px 50px 50px 40px; 
+    position: relative; 
+    top: 50px; 
+  } 
+    
+  h1 { 
+    font-weight: bold; 
+    font-style: normal; 
+    font-family: "Times New Roman"; 
+    font-size: 72px; 
+    color: #090; 
+    text-align: center; 
+  } 
+    
+  .container-padding50 { 
+    padding: 80px 0px 0px 30px; 
+  } 
+    
+  .container-textinput { 
+    width: 70%; 
+    display: inline-block; 
+    padding: 16px; 
+    font-size: 20px; 
+    font-family: Helvetica, sans-serif; 
+  } 
+    
+  .container-button { 
+    width: 20%; 
+    display: inline-block; 
+    padding: 16px; 
+    background-color: green; 
+    color: white; 
+    font-size: 20px; 
+    font-family: Helvetica, sans-serif; 
+    
+    border: 1px solid green; 
+    border-radius: 5px; 
+  } 
+    
+  .container-image { 
+    width: 30%; 
+    display: block; 
+    float: left; 
+    margin-right: 3%; 
+  } 
+    
+  </style>
+  
+
+
+      <section class="js-repo-container"></section>
+
+    
+    <div id="results" class="results">
+      <form id="search-form">
+                <input id="search-input" type="text" placeholder="search">
+                
+            <button type="submit">submit</button>
+            </form>
+    
     <div class="nav-item my-4">
-        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
+      <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
     </div>
     
     <!--Registration-->
 
-    <div class="container" id="registration">
+    <div class="container my-4" id="registration">
       <h1 class="title text-center" >Registration Room</h1>
       <p>Want to join the CrazyNinja school?  Sign up here.</p>
-    </div>
-
     
+
+
       <form class="contact-form my-4 needs-validation" 
       action="#registration"
       method="POST"
@@ -373,7 +347,7 @@ function schoolTour() {
 
       </form>
 
-      <script>
+<script>
 function joinDojo() {
   var txt;
   if (confirm("Judging by your response, you seem to possess great courage.  However, courage alone can only get you so far.  Skill is also important, and honing your skill requires discipline.  You must be prepared to work countless hours and be willing to make countless sacrifices.  So before you join us, ask yourself.  Are you really sure that you want to become a member of our dojo?")) {
@@ -384,11 +358,8 @@ function joinDojo() {
   document.getElementById("membership").innerHTML = txt;
 }
 </script>
-      
-    <div class="nav-item my-4">
-        <a class="btn btn-primary" href="#backtothetop" role="button">Return to Dojo Entrance</a>
-    </div>
 
+      </div>
 
     <nav class="navbar justify-content-center">
       <div class="end text-center">
@@ -396,12 +367,13 @@ function joinDojo() {
         <p>TRAINED BY GIPHY</p>
       </div>
     </nav>
-    
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 
-
+    <script src="js/project2.js"></script>
 </body>
 
     </html>
-
-# project2
