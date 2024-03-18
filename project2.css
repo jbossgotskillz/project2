@@ -68,36 +68,3 @@ body {
     border-color:  black;
     color:  black;
 }
-
-/*.search-bar {
-    border-radius: 30px;
-}
-
-.search  {
-    margin-left: 20px;
-}*/
-
-.category-item, .meal {
-    border:  solid;
-    background-color:  red;
-}
-
-.meal > img {
-    width:  80%;
-}
-
-
-.category-item.wide, .meal.wide {
-    width:  90%;
-    text-align:  center;
-}
-
-/*.category-container, .meal-container {
-    display:  flex;
-    justify-content:  center;
-    flex-wrap:  wrap;
-}*/
-
-.ingredient-list {
-    text-align:  center;
-}
